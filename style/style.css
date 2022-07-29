@@ -246,3 +246,23 @@ form {
     color: white;
     transition: 500ms;
 }
+
+@media screen and (max-width: 550px){
+.container, .last__container {max-width: 375px}
+.nav, .btn__fill__orange {display:none}
+.header__flex, .footer__flex {justify-content: center;}
+.about {flex-direction:column; text-align: center;}
+.about__title {font-size: 60px; line-height: 60px;}
+.btn {width: 100%;}
+.btn__outline {margin-left: 0px; margin-top: 30px;}
+.about img {width: 100%; margin-top: 30px;}
+.subscribe {flex-direction: column-reverse;}
+.subscribe__title {text-align: center; font-size: 30px; line-height: 30px;}
+.input {width: 100%; margin-bottom: 30px;}
+.firstman, .secondman {margin-top: 40px;}
+.plan__title {text-align: center; font-size: 40px; line-height: 40px;}
+.plan__flex {flex-direction: column;}
+.item:not(:last-of-type) {margin-bottom: 30px;}
+.item .btn {width: 80%;}
+.footer {flex-direction: column;}
+}
